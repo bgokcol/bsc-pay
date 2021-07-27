@@ -16,6 +16,7 @@ You can try our demo to understand how it works: https://bg.je/projects/bsc-paym
 * Create a MySQL database.
 * Download this repository and upload files to your web server.
 * Go to your website with a web browser. You will see the installation wizard. Enter the database details and your BSC wallet address. (If you want to use Binance Smart Chain, you don't need to change anything in **Network Settings**.)
+
 ![image](https://user-images.githubusercontent.com/47295517/127149684-2c1b508d-7694-4acb-8531-0b34447803e3.png)
 * After the installation, *your API key* and *cron URL* will appear on the screen. Set up a cron command that runs every minute and makes a request to the cron URL. Example Cron Command: `* * * * * curl {cronUrlAddress}`
 
