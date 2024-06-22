@@ -6,7 +6,6 @@ I like to use Binance Smart Chain, do you? You can use my simple payment gateway
 2. Your customer sends BNB to this wallet address.
 3. Cron checks the balance of the wallet and approves the payment. Our system transfers funds from generated wallet address to your payout wallet address after approval.
 
-You can try our demo to understand how it works: https://bg.je/projects/bsc-payment/example_form.php
 
 ### Prerequisites
 * PHP 7.0+
